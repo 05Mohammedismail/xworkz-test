@@ -1,0 +1,174 @@
+1) java is a command used to execute the program it's location is in 
+     C:\Program Files\Java\jdk1.8.0_261\bin
+	 
+   javac means java compiler it is also a command used to compile the program
+   it's location is in C:\Program Files\Java\jdk1.8.0_261\bin
+   
+   
+2) JDk means "Java development kit" basically its a software platform used to 
+    create and develop java programs
+
+   JRE means "Java Runtime Environment" basically it is also a software of JDK
+    where we can execute the programs   
+	
+   JVM means "Java Virtual Machine" Jvm is present inside jre where the actual execution
+    is done by jvm but we cannot see it 
+
+3) Limitations of Array are
+   1)Array should be used inside the class
+   2)Array is defined by "datatype[]" followed by "Array_name"   
+   3)After declaring a Array we should always use "{ }"(curly braces) to initialize 
+    any value inside array
+   4)Array supports both implicit and explicit initialization
+   5)Array should be called inside a Main method
+   6)Once the Array is defined we cannot change the size of Array
+   7)Array values are strored in the form of indexes and the indexing starts from 0
+   
+4) class is a design or a Blue print for every program we need class 
+    after writing class we write methods and variables inside the class 
+	Syntax for class declaration is " class Class_Name{}"
+	A class is a non-primitive.
+	
+   Object is a instace of a class , object has State and Method
+   
+   Signature of class is  "Static void main(String[] args)"  
+
+5) Array is Collection of Same type of Objects it basiclly acts like a container
+    and the information filled inside the array is called as "Elements"
+   Array is defined by using "[]"
+   Syntax of Array declaraion
+   "datatype[] Array_name" 
+   to initialize array elements we use a pair of Curly braces "{}" inside this 
+    we fill the elements of array
+   we can initialize a array by both implicit and explixit way
+
+6) .java means its a source code written by the developer 
+     it is platform dependent
+   
+   .class means its a byte code which we produce after the compilation of .java
+    .class or byte code is platform independent
+    And this byte code makes the whole java language platform independent
+
+7) byte[] data = {12,34,9,0,-62,88} is
+     = 6
+	 
+8) static void method_name(parameter)throws class
+    1)In a method signature it contains A non access specifier a return type 
+     and a method_name to which we can give parameters
+    2)And a parameter is nothing but the variable declaration inside the parenthesis
+    3)And we can invoke a method signature only my using main method	
+
+9) Java is High Level object oriented programming language used in majority all over
+    the world becouse it is platform independent thta means WORA(Write once runs anywhere)
+	and the thing which makes java platform independent is byte code ,we use java to 
+	build web management thats why you can find java almost everywhere around you
+	even your laptops,mobiles and smart watches are running under java
+
+10) Variables are reference to the address we initialize
+    1)variables play a vital role in programming
+    2)variable are always defined inside the class
+    3)Syntax to declare variable	
+	   datatype Variable_name
+	4)where the datatype can be primitive or non primitive
+	5) we can initialize the variable in both implicit and explicit way
+    6) there are 2types of Variables
+     1)Instace variable : declared inside the class but outside the method
+     2)Local Variable : declared inside the method 
+	 
+11) A class variable is Defined inside a class to which we cant make any copies of 
+     a class variable is not a instance variable
+
+12) A datatype is used to tell about the type of data we are using to
+     initialize the variable
+    types of datatypes are
+    1) primitive : there are 8 Primitive datatypes
+      primitive data types are : byte,short,int,long,char,float,double,boolean
+    2) non-primitive : A non-primitive datatype is a customised data written by   
+                       the developer so number of non-primitive's are infinite
+
+13) Java features are:
+    1) simple 
+    2) high level language
+    3) object oriented
+    4) platform independent
+    5) secure language
+
+14) Types of Array are
+   1)Single dimensional
+   2)Multi dimensional
+
+15) Suppose we have written the elements about the length of 5index but if we try to 
+    call the element at 6 index then the javac will show the error of index out of bound
+    exception
+
+16) System.out.println() is a line written to print the message or a value 
+    here system is a pre-defined name
+         out is static variable
+         println is a static method
+		 () is used to insert parameter
+		 . is a dot operator used to link the class with the reference 
+		 
+17) It is used to tell the reference is locating to the same address
+
+18) Dot operator is used to call the member of a method from class
+
+19) object is base class
+
+20)1)abstract
+   2)assert
+   3)byte
+   4)boolean
+   5)break
+   6)char
+   7)catch
+   8)class
+   9)case
+   10)continue
+   11)double
+   11)default
+   12)do
+   13)enum
+   14)extends
+   15)else
+   16)float
+   17)final
+   18)finally
+   19)for
+   20)int
+   21)if
+   22)instanceof
+   23)interface
+   24)implements
+   25)import
+   26)long
+   27)null
+   28)native
+   29)new
+   30)package
+   31)public
+   32)private
+   33)protected
+   34)return
+   35)static
+   36)strictfp
+   37)synchronize
+   38)super
+   39)switch
+   40)short
+   41)throws
+   42)throw
+   43)try
+   44)this
+   45)transient
+   46)void
+   47)volatile
+   48)while
+
+
+
+   
+	 
+	 
+	 
+	 
+   
