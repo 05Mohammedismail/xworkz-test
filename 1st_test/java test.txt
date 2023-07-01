@@ -31,7 +31,7 @@
 	
    Object is a instace of a class , object has State and Method
    
-   Signature of class is  "Static void main(String[] args)"  
+   Signature of method is  "Static void main(String[] args)"  
 
 5) Array is Collection of Same type of Objects it basiclly acts like a container
     and the information filled inside the array is called as "Elements"
@@ -108,11 +108,11 @@
 		 () is used to insert parameter
 		 . is a dot operator used to link the class with the reference 
 		 
-17) It is used to tell the reference is locating to the same address
+17) It is used to tell the reference  locating to the  address is whether true or false
 
 18) Dot operator is used to call the member of a method from class
 
-19) object is base class
+19) SuperClass is a base class from which all other classes are derived
 
 20)1)abstract
    2)assert
