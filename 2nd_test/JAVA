@@ -3,7 +3,7 @@ JAVA :
  1) error: incompatible types: int cannot be converted to boolean
                 if((boolean)x==true)
 				
-2)  error
+2)  10 ,110
 				
 				
 3)  error: incompatible types: int cannot be converted to boolean
