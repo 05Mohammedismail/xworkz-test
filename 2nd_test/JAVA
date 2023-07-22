@@ -3,7 +3,7 @@ JAVA :
  1) error: incompatible types: int cannot be converted to boolean
                 if((boolean)x==true)
 				
-2)  error
+2)  10 ,110
 				
 				
 3)  error: incompatible types: int cannot be converted to boolean
@@ -75,6 +75,21 @@ public class Temp {
         }
     }
 } 
+2) public class Pattern{
+    public static void main(String[] args) {
+        int size = 3; 
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                if (j == i || j == size - i - 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print("&");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
  
 
   3) 
