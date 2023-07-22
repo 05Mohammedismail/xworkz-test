@@ -1,0 +1,141 @@
+1) x= 11 , y = 34
+
+2) error:'static' variable cannot be declared inside method
+
+3) error: static variable can only be initialised using static block
+
+4) lenght = 4
+   sum = 200
+   
+6) Method parameters are:
+		Parameters are nothing but local variable declared inside parenthesis
+		And the parameters written in the method are called as method parameters
+		
+		example:
+			class Demo{
+				void method(String name){
+				}
+			}
+		
+		from above example the local variable inside parenthesis is called parameters
+		for these parameters we Pass arguements to get specific outcome
+	 
+7) Compile time polymorphism means compiler decides which method to be invoked by seeing its number of arguements :
+		In a class when we have many number of methods having same name but differ in parameters 
+		that is called method overloading 
+		
+		Rules to write method overloading:
+		1) Method should have same name but differ in data types of parameters
+		1) Method should have same name but differ in number of parameters
+		1) Method should have same name but differ in sequence or order of parameters
+		
+	example:
+	class One{
+	 void method(){
+	 System.out.println("This is a method having no arguements");
+	 }
+	 
+	 void method(String name){
+	 System.out.println("This is a method having String arguements");
+	 }
+	 
+	 	 void method(String name , int age){
+	 System.out.println("This is a method having String, int arguements");
+	 }
+
+	}
+		
+       	 
+8) var-args is new feature where we can pass number of arguements of same data types
+		to achieve var-args we have to use 3dots " ... " after we write the data type while writing parameters
+		when we dont know how many arguements of same type we have to pass then this feature is very helpul 
+		
+		example:
+		class Test{
+			void method(int... age){
+			
+			}
+		}
+		
+		here in the above example we are making use of var-args after the data type while writing parameters
+
+9) package is folder inside a project where we have written specific programs which we can access them later using import
+	packages are written is the order of domain.companyName.ApplicationName;
+	To import packages it is highly dependent of what type of access specifiers we have used in the class
+	
+	Types of import	are:
+		Single type : where we are just using one class from a package for our program
+		example: com.xworkz.student; //here student is a single class we are importing into other class
+		
+		wildCard type: Here all the classes from that package are taken for our program
+		example: com.xworkz.*; //here * defines all the classes from that package are imported to our program
+
+10) Constructor chaining means writing one constructor inside another constructor
+			well first line of constructor is always super chaining
+			there are two types of chaining
+			1. super chainig : where we are chaining the constructor from parent class
+			2. this chaining or same class chaining : here we are chaining the constructors of same class
+			
+		example:
+		class Constructor{
+			
+			Constructor(String name , int age){    //first constructor
+			this.name = name;
+			this.age = age;
+			System.out.println("invoking string, int, arguements of Constructor")
+			
+			}
+			Constructor(int number){     // second constructor
+			this(name,age);
+			this.number = number;
+			System.out.println("invoking  int, arguement of Constructor")
+			}
+		}
+		
+		here from above example we are writing two constructor where one constructor is invoking string , int 
+		and other constructor invoking int so in the first constructor we have initialised local varibles to 
+		instance variable and to the second constructor we are chaining the first constructor by using the this()
+		and it we are passing the values initialised in first constructor
+		
+		
+		
+14) Enumeration is nothing but Enum in java Enum is a keyword which is used as a special data type which has some 
+	fixed constant elements for variables in class
+	
+	example: enum Color{
+			GREEN, BLUE, BLACK, RED
+			}
+			
+			class Enum{
+			
+			Color color;
+
+			public static void main(String[] args){
+			Enum enum = new Enum();
+			enum.Color.GREEN
+			           BLUE    //from these 4 constant values only we can initialise this color-variable
+				   BLACK
+				   RED
+			}
+			}
+			
+			here from above example we can say that the datatype we have created as Color using enum can only initialise
+			the variables with its constant elements written inside enum class
+			
+			
+15) We use new keyword to create an object so when java see's the new keyword creating an object 
+		1. new memory is allocated inside instance memory 
+		2. Variables are copied inside that memory
+		3. default vaues of those variables are passed
+		4. JVM calls the constructor and a new stack is created inside stack memory
+		5. And the values are passed to the reference of object
+	
+
+16) Members of class are :
+	1.Variables
+	2.Methods
+	3.Constructors
+	4.Classes inside classes
+	5.Constants
+			
+		 
